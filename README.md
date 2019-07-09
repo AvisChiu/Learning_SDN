@@ -23,3 +23,8 @@ JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 ```
 Reboot and check the java version,the result like this.(from(https://blog.csdn.net/u012067966/article/details/50736647))
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="500"/>
+  
+Step2
+---
+Make sure that there is a zip file named karaf-0.7.0.zip in **/home**(you downloaded just now)   
+Extract it~
