@@ -27,5 +27,5 @@ Reboot and check the java version,the result like this.(from(https://blog.csdn.n
    
 Step2
 ---
-Make sure that there is a zip file named karaf-0.7.0.zip in **/home**(you downloaded just now)   
+Make sure that there is a zip file named **karaf-0.7.0.zip** in **/home**(you downloaded just now)   
 Extract it~
