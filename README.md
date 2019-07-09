@@ -35,4 +35,8 @@ cd etc
 gedit org.apache.karaf,management.cfg
 ```
 change 0.0.0.0 into 127.0.0.1
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/mana.png" width="500",height="500"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/mana.png" width="300",height="300"/></div>
+
+```
+cd /karaf0.7.0/bin
+```
