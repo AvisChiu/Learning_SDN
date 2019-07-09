@@ -25,7 +25,7 @@ Reboot and check the java version,the result like this.(from(https://blog.csdn.n
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="800",height="800"/></div>
    
    
-Step2 Install Opendaylight
+Step2: Install Opendaylight
 ---
 Make sure that there is a zip file named **karaf-0.7.0.zip** in **/home**(you downloaded just now)   
 Extract it~
@@ -43,7 +43,7 @@ cd /karaf0.7.0/bin
 ```
 It turns it on
 
-Step3 Turn it on
+Step3: Turn it on
 ---
 ```
 cd /karaf0.7.0/bin
@@ -53,7 +53,7 @@ cd /karaf0.7.0/bin
 
 **net we need to install some tools in the opendaylight envioronment**
 
-Step4 Installs some necessary tools in opendaylight
+Step4: Installs some necessary tools in opendaylight
 ---
 to install the tools,it's difficult to say different versions have the same command
 but there some necessary tools in this 0.7.0 version.
@@ -79,3 +79,12 @@ feature:install odl-dluxapps-topology
 feature:install odl-mdsal-all
 ```
 THE ui interface will depend on the tools you installs.
+
+Step5: Done and check 
+---
+```
+localhost:8181/index.html#/login
+username:admin
+password:admin
+```
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web.png" width="800",height="800"/></div>
