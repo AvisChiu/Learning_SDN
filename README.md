@@ -22,7 +22,7 @@ Add this in the end and save.
 JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 ```
 Reboot and check the java version,the result like this.(from(https://blog.csdn.net/u012067966/article/details/50736647))
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="500"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="800",height="800"/></div>
    
    
 Step2
