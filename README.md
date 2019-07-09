@@ -82,6 +82,13 @@ THE ui interface will depend on the tools you installs.
 
 Step5: Done and check 
 ---
+**get into the opendaylight environment first**
+```
+cd /karaf0.7.0
+cd bin
+./karaf
+```
+**Open the browser
 ```
 localhost:8181/index.html#/login
 username:admin
