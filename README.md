@@ -13,7 +13,13 @@ and you need to update your **jdk** environment first.
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get installopenjdk-8-jdk
-reboot
 ```
-Then reboot, and check the java version,the result like this.(from(https://blog.csdn.net/u012067966/article/details/50736647))
+```
+gedit /etc/environment
+```
+Add this in the end and save.
+```
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+```
+Reboot and check the java version,the result like this.(from(https://blog.csdn.net/u012067966/article/details/50736647))
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="500"/>
