@@ -81,15 +81,16 @@ feature:install odl-mdsal-all
 THE ui interface will depend on the tools you installs.
 
 Step5: Done and check 
----
-<br  />    
+---  
+
+
 * **Get into the opendaylight environment first**
 ```
 cd /karaf0.7.0
 cd bin
-./karaf
+./karaf  
 ```
-<br  /> 
+
 * **Open the browser**
 ```
 localhost:8181/index.html#/login
@@ -97,17 +98,17 @@ username:admin
 password:admin
 ```
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web.png" width="800",height="800"/></div>
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web2.png" width="800",height="800"/></div>   
-   
-<br  /> 
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web2.png" width="800",height="800"/></div>     
+
+
 * **Start up Mininet**
 You can use other setting of network topology.
 ```
 sudo mn --topo single,3 --mac --switch ovsk,protocols=OpenFlow13 --controller remote
 ```
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/mininet.png" width="800",height="800"/></div>      
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/mininet.png" width="800",height="800"/></div>        
      
-<br  /> 
+
 * **Refresh the browser**
 You will not see the whole topology of the net work but a switch.
 ```
