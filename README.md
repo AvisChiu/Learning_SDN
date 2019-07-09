@@ -39,4 +39,14 @@ change 0.0.0.0 into 127.0.0.1
 
 ```
 cd /karaf0.7.0/bin
+./karaf
 ```
+It turns it on
+
+Step3
+---
+```
+cd /karaf0.7.0/bin
+./karaf
+```
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/karaf.png" width="300",height="300"/></div>
