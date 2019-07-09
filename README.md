@@ -5,7 +5,7 @@ About how to show the network topology in the Opendaylight UI.
 * Opendaylight Nitrogien 0.7.0. Download link:
 (https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/)   
    
-Step1: 
+Step1: Update jdk environment
 ---
 It ok that you put the zip into **/home** and extract it.   
 and you need to update your **jdk** environment first.
@@ -25,7 +25,7 @@ Reboot and check the java version,the result like this.(from(https://blog.csdn.n
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/java_ver.png" width="800",height="800"/></div>
    
    
-Step2
+Step2 Install Opendaylight
 ---
 Make sure that there is a zip file named **karaf-0.7.0.zip** in **/home**(you downloaded just now)   
 Extract it~
@@ -43,7 +43,7 @@ cd /karaf0.7.0/bin
 ```
 It turns it on
 
-Step3
+Step3 Turn it on
 ---
 ```
 cd /karaf0.7.0/bin
@@ -53,7 +53,7 @@ cd /karaf0.7.0/bin
 
 **net we need to install some tools in the opendaylight envioronment**
 
-Step4
+Step4 Installs some necessary tools in opendaylight
 ---
 to install the tools,it's difficult to say different versions have the same command
 but there some necessary tools in this 0.7.0 version.
