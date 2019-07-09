@@ -49,9 +49,9 @@ Step3: Turn it on
 cd /karaf0.7.0/bin
 ./karaf
 ```
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/karaf.png" width="800",height="800"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/karaf.png" width="800",height="800"/></div>   
 
-**net we need to install some tools in the opendaylight envioronment**
+**now we need to install some tools in the opendaylight envioronment**
 
 Step4: Installs some necessary tools in opendaylight
 ---
