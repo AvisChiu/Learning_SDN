@@ -49,4 +49,33 @@ Step3
 cd /karaf0.7.0/bin
 ./karaf
 ```
-<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/karaf.png" width="300",height="300"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/karaf.png" width="800",height="800"/></div>
+
+**net we need to install some tools in the opendaylight envioronment**
+
+Step4
+---
+to install the tools,it's difficult to say different versions have the same command
+but there some necessary tools in this 0.7.0 version.
+and you can check by using
+```
+feature:list
+```
+it will show you what tools you can install, 
+try to use below command line to find what you need and what's the real name of the tool.
+```
+feature:list | grep <something>
+```
+```
+feature:install <feature-name>
+feature:install odl-mdsal-clustering
+feature:nistall odl-restconf
+feature:install odl-l2switch-switch
+feature:install odl-l2switch-all
+feature:install odl-dlux-core
+feature:install odl-dluxapps-nodes
+feature:install odl-dluxapps-yangui
+feature:install odl-dluxapps-topology
+feature:install odl-mdsal-all
+```
+THE ui interface will depend on the tools you installs.
