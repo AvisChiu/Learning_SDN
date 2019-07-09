@@ -55,14 +55,14 @@ cd /karaf0.7.0/bin
 
 Step4: Installs some necessary tools in opendaylight
 ---
-to install the tools,it's difficult to say different versions have the same command
+To install the tools,it's difficult to say different versions have the same command
 but there some necessary tools in this 0.7.0 version.
-and you can check by using
+And you can check by using
 ```
 feature:list
 ```
-it will show you what tools you can install, 
-try to use below command line to find what you need and what's the real name of the tool.
+It will show you what tools you can install, 
+Try to use below command line to find what you need and what's the real name of the tool.
 ```
 feature:list | grep <something>
 ```
@@ -97,3 +97,17 @@ password:admin
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web.png" width="800",height="800"/></div>
 <div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/web2.png" width="800",height="800"/></div>
 
+**Start up Mininet**
+You can use other setting of network topology.
+```
+sudo mn --topo single,3 --mac --switch ovsk,protocols=OpenFlow13 --controller remote
+```
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/mininet.png" width="800",height="800"/></div>  
+
+**Refresh the browser**
+You will not see the whole topology of the net work but a switch.
+```
+pingall
+```
+Then you will see it~!
+<div align=center> <img src="https://github.com/AvisChiu/Opendaylight_with_mininet/blob/master/figure/pingall.png" width="800",height="800"/></div>  
