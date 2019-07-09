@@ -9,6 +9,6 @@ Step1:
 ---
 It ok that you put the zip into **/home** and extract it.   
 and you need to update your jdk environment first.
-···
+```
 apt-get installopenjdk-8-jdk
-···
+```
