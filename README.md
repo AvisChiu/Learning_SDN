@@ -78,7 +78,7 @@ feature:install odl-dluxapps-yangui
 feature:install odl-dluxapps-topology
 feature:install odl-mdsal-all
 ```
-THE ui interface will depend on the tools you installs.
+THE ui interface will depend on the tools you installed.
 
 Step5: Done and check 
 ---  
