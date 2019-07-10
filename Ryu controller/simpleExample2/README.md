@@ -11,4 +11,4 @@ sudo mn --topo linear,5 --controller remote
 sudo mn --topo linear,6 --controller remote
 ```
 And you can see the topology in opendaylight ui.(odl is used to check topology)
-<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample2/topology.png" width="800",height="800"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample2/topology.png" width="600",height="600"/></div>
