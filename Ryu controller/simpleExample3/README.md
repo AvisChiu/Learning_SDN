@@ -14,4 +14,4 @@ cd ./MiniNAM
 sudo chmod +x paping
 sudo chmod +x MiniNAM
 ```
-You can **[refer](https://ting-kuan.blog/2018/04/04/%E3%80%90mininam-%E8%A6%96%E8%A6%BA%E5%8C%96%E7%B6%B2%E8%B7%AF%E6%8B%93%E5%A2%A3%E6%A8%A1%E6%93%AC%E5%99%A8%E3%80%91/)
+You can **[refer]**(https://ting-kuan.blog/2018/04/04/%E3%80%90mininam-%E8%A6%96%E8%A6%BA%E5%8C%96%E7%B6%B2%E8%B7%AF%E6%8B%93%E5%A2%A3%E6%A8%A1%E6%93%AC%E5%99%A8%E3%80%91/)
