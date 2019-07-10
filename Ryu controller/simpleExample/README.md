@@ -31,5 +31,5 @@ pingall
 ```
 Then you can see how the packets goes through in this network.
 The result will be:
-<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample/packets.png" width="600",height="600"/></div> 
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample/packets.png" width="800",height="600"/></div> 
 
