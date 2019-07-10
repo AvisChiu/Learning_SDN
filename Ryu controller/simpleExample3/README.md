@@ -16,3 +16,10 @@ sudo chmod +x paping
 sudo chmod +x MiniNAM
 ```
 
+***Second***
+---
+Using MiniNAM, just the same like using **-mn**
+```
+./MiniNam –topo single,4 –controller remote
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample3/mininam.png" width="600",height="600"/></div>
