@@ -37,3 +37,11 @@ sudo ryu-manager simple_switch_13.py
 ***Then you can see an interface***   
 Typr **pingall** in mininet,you can see the packet flow.
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample3/vis.png" width="600",height="600"/></div>
+
+***Forth***
+---
+Check the result from the information in mininam
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample3/interface.png" width="600",height="600"/></div>
+<br/>
+The same like example2, we can know how the switches work
+
