@@ -1,3 +1,3 @@
-TO FIGURE OUT HOW TO USE RYU BASED ON MININET
+To Figure out how to use ryu based on mininet
 ---
 * A simple example
