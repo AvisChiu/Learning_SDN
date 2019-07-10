@@ -5,6 +5,7 @@ Show the network topology in Opendaylight UI.
 * Opendaylight Nitrogien 0.7.0. Download link:   
 (https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/)    
 * ***it's not so necessary to make network topology visible.***
+   * skip to Ryu controller (http://)
    
 Step1: Update jdk environment
 ---
