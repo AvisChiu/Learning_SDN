@@ -42,5 +42,6 @@ For example
 ...
 ```
 This result is because packet was flooded to different destinations.  
-And the switch can mark down the source , port , destination.   
-You can see "Packet in event" in the figure. 
+And the switch can mark down the ***source , port , destination***.   
+You can see ***"Packet in event"*** in the figure. 
+***in_port*** means the packet entried from this port.
