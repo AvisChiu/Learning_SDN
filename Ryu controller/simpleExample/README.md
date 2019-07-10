@@ -14,7 +14,14 @@ The result will be:
 
 Step2
 ---
-Open anoher terminal
+Open anoher terminal:
+```
+ovs-vsctl show
+ovs-dpctl show
+//change the Bridge s1 protocol into OpenFlow13
+ovs-vsctl set Bridge s1 protocols=OpenFlow13
+```
+Open another terminal
 ```
 ryu-manager --verbose ryu.app.simple_switch_13
 ```
@@ -22,4 +29,7 @@ In mininet
 ```
 pingall
 ```
+Then you can see how the packets goes through in this network.
 The result will be:
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample/packets.png" width="400",height="600"/></div> 
+
