@@ -1,9 +1,10 @@
-About how to show the network topology in the Opendaylight UI.  
+Show the network topology in Opendaylight UI.
 ---
 * Sure that you have already installed Mininet
 * System: Ubuntu 16.04
 * Opendaylight Nitrogien 0.7.0. Download link:
-(https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/)   
+(https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/) 
+***it's not so necessary to make network topology visible.***
    
 Step1: Update jdk environment
 ---
