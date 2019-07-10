@@ -39,3 +39,6 @@ For example
 '76:36:2d:58:6a:47': 2   ----> means switch 1 has a link between 76:36:2d:58:6a:47 in port 2
 ...
 ```
+This result is because packet was flooded to different destinations.  
+And the switch can mark down the source , port , destination.   
+You can see "Packet in event" in the figure. 
