@@ -31,3 +31,8 @@ Using MiniNAM, just the same like using **-mn**
 sudo ryu-manager simple_switch_13.py
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample3/ryu.png" width="600",height="600"/></div>
+<br>
+<br>
+***Then you can see an interface***
+Typr **pingall** in mininet,you can see the packet flow.
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample3/vis.png" width="600",height="600"/></div>
