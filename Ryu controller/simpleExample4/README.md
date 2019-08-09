@@ -44,3 +44,14 @@ http://0.0.0.0:8080/trafficmonitor/portstat
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/traffic.png" width="600",height="600"/></div>
 
 We can ping the host in mn, and the data will be changed.
+
+
+
+***Note***
+---
+```
+sudo mn --topo single,5 --mac --switch ovsk --controller remote -x
+sudo mn --topo single,6 --mac --switch ovsk --controller remote -x
+sudo mn --topo single,7 --mac --switch ovsk --controller remote -x
+...
+```
