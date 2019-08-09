@@ -32,3 +32,15 @@ Open a new terminal
 ryu-manager --verbose ./simple_monitor.py
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/ryu.png" width="600",height="600"/></div>
+
+
+
+***Forth***
+---
+Open an browser, check the switch's port.
+```
+http://0.0.0.0:8080/trafficmonitor/portstat
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/traffic.png" width="600",height="600"/></div>
+
+We can ping the host in mn, and the data will be changed.
