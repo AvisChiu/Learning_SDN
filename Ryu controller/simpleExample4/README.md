@@ -22,4 +22,4 @@ ovs-ofctl -O OpenFlow dump-flows s1
 ```
 the version need to be 1.3 (from RyuBook)
 
-div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/s1.png" width="600",height="600"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/s1.png" width="600",height="600"/></div>
