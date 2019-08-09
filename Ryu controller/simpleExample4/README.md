@@ -23,3 +23,12 @@ ovs-ofctl -O OpenFlow dump-flows s1
 the version need to be 1.3 (from RyuBook)
 
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/s1.png" width="600",height="600"/></div>
+
+
+***Third***
+---
+Open a new terminal
+```
+ryu-manager --verbose ./simple_monitor.py
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/ryu.png" width="600",height="600"/></div>
