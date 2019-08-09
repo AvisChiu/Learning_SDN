@@ -55,3 +55,16 @@ sudo mn --topo single,6 --mac --switch ovsk --controller remote -x
 sudo mn --topo single,7 --mac --switch ovsk --controller remote -x
 ...
 ```
+
+copy the code from:
+```
+/home/avis/ryu/ryu/app/simple_monitor_13.py
+```
+excute in Desktop
+```
+ryu-manager --verbose ./simple_monitor_13.py.py 
+```
+
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample4/traffic2.png" width="600",height="600"/></div>
+
+
