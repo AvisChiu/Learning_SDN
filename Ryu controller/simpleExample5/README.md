@@ -24,3 +24,16 @@ Open a new terminal, Turn on ryu controller
 <br/>
 
 
+***Second***
+---
+Now the network was initialized. But the host need to know others' address.
+In mininet terminal
+```
+h1 ping -c 1 h2
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/third.png" width="600",height="600"/></div>
+<br/>
+Check the ryu controller terminal. 
+The controller received the packets three times.
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/third2.png" width="600",height="600"/></div>
+<br/>
