@@ -97,3 +97,9 @@ packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/sixth.png" width="600",height="600"/></div>
 <br/>
+
+***Node***
+---
+If we don't set the flow entry, the host will say hello to each other.
+If we have already set the flow entry in switch, the packets know to choose the port.
+And don't need to exchange the packets with each other.
