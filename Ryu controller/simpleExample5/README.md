@@ -82,3 +82,18 @@ curl -X PUT -d '{"mac" : "00:00:00:00:00:02", "port" : 2}' http://127.0.0.1:8080
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/fifth.png" width="600",height="600"/></div>
 <br/>
+
+***Sixth***
+---
+In mininet
+```
+h1 ping -c 1 h2
+```
+Check controller
+
+```
+EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/sixth.png" width="600",height="600"/></div>
+<br/>
