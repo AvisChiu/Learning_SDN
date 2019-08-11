@@ -24,7 +24,7 @@ Open a new terminal, Turn on ryu controller
 <br/>
 
 
-***Second***
+***Third***
 ---
 Now the network was initialized. But the host need to know others' address.
 In mininet terminal
@@ -46,4 +46,13 @@ EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
 packet in 1 00:00:00:00:00:01 00:00:00:00:00:02 1
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/third2.png" width="600",height="600"/></div>
+<br/>
+
+***Forth***
+---
+Open the browser
+```
+http://127.0.0.1:8080/ simpleswitch/mactable/0000000000000001
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/forth.png" width="600",height="600"/></div>
 <br/>
