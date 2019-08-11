@@ -34,6 +34,15 @@ h1 ping -c 1 h2
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/third.png" width="600",height="600"/></div>
 <br/>
 Check the ryu controller terminal. 
-The controller received the packets three times.
+The controller received the packets three times.   
+```
+EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
+packet in 1 00:00:00:00:00:02 00:00:00:00:00:01 2
+EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:02 1
+
+```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/third2.png" width="600",height="600"/></div>
 <br/>
