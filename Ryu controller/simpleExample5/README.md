@@ -35,7 +35,7 @@ h1 ping -c 1 h2
 <br/>
 Check the ryu controller terminal. 
 The controller received the packets three times. 
-
+The switch need to know that the packet send to which port.
 ```
 EVENT ofp_event->SimpleSwitchRest13 EventOFPPacketIn
 packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
