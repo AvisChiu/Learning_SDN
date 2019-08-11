@@ -56,3 +56,29 @@ http://127.0.0.1:8080/ simpleswitch/mactable/0000000000000001
 ```
 <div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/forth.png" width="600",height="600"/></div>
 <br/>
+
+```
+curl -X GET http://127.0.0.1:8080/ simpleswitch/mactable/0000000000000001
+```
+<br/>
+
+
+***Fifth***
+---
+Turn down all the terminals.
+Now we set the MAC at the begining instead of after the ping in mininet.
+The same as before, open two new terminals
+```
+sudo mn --topo single,3 --mac --switch ovsk --controller remote -x
+```
+```
+sudo ovs-vsctl set Bridge s1 protocols=OpenFlow13
+ryu-manager --verbose ./simple_switch_rest_13.py
+```
+Open the third terminal.
+```
+curl -X PUT -d '{"mac" : "00:00:00:00:00:01", "port" : 1}' http://127.0.0.1:8080/simpleswitch/mactable/0000000000000001
+curl -X PUT -d '{"mac" : "00:00:00:00:00:02", "port" : 2}' http://127.0.0.1:8080/simpleswitch/mactable/0000000000000001
+```
+<div align=center> <img src="https://github.com/AvisChiu/SDN_Freshman/blob/master/Ryu%20controller/simpleExample5/fifth.png" width="600",height="600"/></div>
+<br/>
